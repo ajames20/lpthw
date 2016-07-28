@@ -17,4 +17,10 @@ shoes = 100
 shoe_laces = (shoes * 2)
 
 print "This accessing variables"
-amount_of_shoes(shoes * 2, shoe_laces * 2)
+amount_of_shoes(shoes * 3, shoe_laces * 3)
+
+print "Another way to access variables and math"
+amount_of_shoes(shoes + shoes, shoe_laces + shoe_laces)
+
+print "Practice makes perfect"
+amount_of_shoes(shoes / 2, shoe_laces / 2)
